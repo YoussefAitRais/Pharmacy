@@ -36,5 +36,4 @@ public class PharmacyController {
         return productRepository.save(product);
     }
 
-
 }
