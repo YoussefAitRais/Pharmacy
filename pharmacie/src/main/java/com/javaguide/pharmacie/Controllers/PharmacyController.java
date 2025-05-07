@@ -26,7 +26,6 @@ public class PharmacyController {
         return productRepository.findAll();
     }
 
-
     @DeleteMapping("/product/{id}")
     public void deletProductById( @PathVariable long id) {
         productRepository.deleteById(id);
