@@ -11,8 +11,6 @@ public class PharmacyController {
 
     private final ProductRepository productRepository;
 
-
-
     public PharmacyController(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
