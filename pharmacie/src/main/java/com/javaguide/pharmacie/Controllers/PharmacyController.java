@@ -20,6 +20,7 @@ public class PharmacyController {
         return productRepository.save(product);
     }
 
+
     @GetMapping("/product")
     public Iterable<Product> getAllProducts() {
         return productRepository.findAll();
